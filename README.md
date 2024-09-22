@@ -10,18 +10,18 @@ This project is designed to analyze laptop prices using DBT. The project include
 
 For our demonstration the transformed data will be stored in a postgres database
 
- **Install DBT**:
+1. **Install DBT**:
    If DBT is not installed, you can install it using pip:
    ```bash
    pip install dbt
    ```
 
-**Configure DBT**:
+2. **Configure DBT**:
    Update the `profiles.yml` file with your database credentials. Follow [DBT's guide on setting up profiles](https://docs.getdbt.com/docs/get-started/connection-profiles) for your data warehouse.
 
 
 
- **Run the Model**:
+ 3. **Run the Model**:
    Run the transformation defined in `laptop_prices_transformation.sql`:
    ```bash
    dbt run
