@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: laptop_prices_source
+    schema: public  # The schema where your source table is located (default is 'public')
+    tables:
+      - name: laptop_prices
